@@ -34,7 +34,7 @@
                         'sm': 'clamp(0.8rem, 1vw + 0.5rem, 1rem)',
                     },
                     backgroundImage: {
-                        'paper-pattern': "url('https://www.transparenttextures.com/patterns/crinkle-paper.png')",
+                        'paper-pattern': "url('https://www.transparenttextures.com/patterns/rice-paper-2.png')",
                     }
                 },
             },
@@ -81,9 +81,9 @@
 </head>
 
 <body
-    class="bg-background-light dark:bg-background-dark font-sans text-text-light dark:text-text-dark antialiased bg-paper-pattern transition-colors duration-300">
+    class="bg-background-light dark:bg-background-dark font-sans text-text-light dark:text-text-dark antialiased bg-paper-pattern transition-colors duration-300 no-scrollbar">
     <div
-        class="w-full md:max-w-md mx-auto min-h-screen relative overflow-hidden shadow-2xl bg-paper-texture-light dark:bg-paper-texture-dark border-x border-gray-200 dark:border-gray-700">
+        class="w-full md:max-w-md mx-auto min-h-screen relative overflow-hidden shadow-2xl bg-paper-pattern bg-paper-texture-light dark:bg-paper-texture-dark border-x border-gray-200 dark:border-gray-700">
         <div
             class="absolute -top-16 -left-16 w-64 h-64 bg-secondary opacity-10 rounded-full blur-3xl pointer-events-none mix-blend-multiply dark:mix-blend-screen">
         </div>
@@ -94,7 +94,7 @@
             <div class="w-48 mb-4">
                 <img alt="Chai &amp; Bean Logo"
                     class="w-full h-auto object-contain dark:brightness-110 drop-shadow-sm transform -rotate-2"
-                    src="Logo.png" />
+                    src="assets/images/Logo.png" />
             </div>
             <p class="font-body text-xl text-gray-500 dark:text-gray-400 italic mt-[-10px]">Artisan Sips &amp; Bites</p>
         </header>
@@ -121,7 +121,37 @@
                 <li>
                     <button
                         class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
+                        Milk
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
+                        Mojito
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
                         Snacks
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
+                        Sandwich
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
+                        Burgers
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-5 py-2 rounded-full font-display text-sm shadow-sm border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary transition-all whitespace-nowrap">
+                        Maggies
                     </button>
                 </li>
             </ul>
@@ -138,10 +168,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[-5deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[-5deg]">
                             <img alt="Coffee Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzY9djkOMI87uQpleJD-WgDg0jSckW6NB1P8ywNV5oInu_jsITde4sqYkOKm1Namuyub069OnWzR10abT5jjJfWyU5WSpyesP75FtrujmMO8XoC7OditVbN5Lt4XsiBUbn9tIOVzJBwtVw_g1onqk5k79JT8b7pwx_1ZQGxwaQ8dgcqmhBCuqZVwx1ssXdvSs9kY0Ne7IA7gjtNmSZN6fzoGUumRgly2lT2dEuyqYSpXQCDRV7E4atPFiyHxHBBNB_9gf0JQrVfQlG" />
+                                src="assets/images/Coffee.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
@@ -174,10 +204,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4 flex-row-reverse">
                     <div class="w-1/3 flex flex-col items-center justify-start pt-4">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[3deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[3deg]">
                             <img alt="Tea Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAV0l32_cFNIpGHPqPaci3V356iD-449REWPh_fYE64lB-hm0opkeirF31DnzBaVBJqhlI3lRuRjDS-Ojo-D4YWI_yBneCj8zdFngEcnopDa6c0vV3HitMSrn2DWD6P3vr0DBzdIDiMccugvknAsNSJvRGh3r7CF4J7NNnxwNNX6lGu2_wVm3mRzZPE4WyssTHiG0cj9TalpQ_5POvqdloqDuFelOmIfaBl0pWUFgLCySczAGc-S4pQjUMCTHAUzvRaB42eFm0hQTN5" />
+                                src="assets/images/Tea.png" />
                         </div>
                         <div class="w-[20vw] h-[20vw] max-w-[5rem] max-h-[5rem] mt-4 -rotate-[2deg]">
                             <img alt="Herbal Tea Illustration"
@@ -235,10 +265,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[-2deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[-2deg]">
                             <img alt="Milk Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCs67LvWTe7O1TZ9zcFogJyhb-dx-O_ewHWcaT9b5JxXxXwu77iPjMWpOnO_nhRHYkxlIK1qCBZleQNTuq8k8NfG-O2JgEsUEa2tDLSQWywSblbrYZu6nh0BVPaXmefRaRtr98eUE8DKlNK2nte1DQtlwN8eeq1IiLEQ9atslMlVffTLPeCN4FpGsH5azwMP1KmVemh9om_1qSSEI0h77Usxs5a5xrNE-yBGnGt46E25GUphbTZFk9IWCzvUg4AUpin8TvpQZI77m3" />
+                                src="assets/images/Milk.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
@@ -273,10 +303,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4 flex-row-reverse">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[5deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[5deg]">
                             <img alt="Mojito Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOSDPLpfl56K1BrBKQTz-wZoGV9nrHWGzss4Bcn8IsFQ-ZgaDXXzO1UPKjmBBSM3jSJauQEs8Aw6BFiUV5nuLZQiK-wLWWeWQAv07GaW21EQkrRebrxrOMsGMxbABo-F3cViqbd2YiEjUtevC2TybzJUFLGuLV9-lJxilI5T_NVA2U6meWfXQrYXa_D9-aEunNFu8CnywzYflJxCZSvrJGyVkO2DijoloanazKMGazkvmkW7PHeSL7Q8k-gHNuAudl_tj9qFEQHbMK" />
+                                src="assets/images/Mojito.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
@@ -319,10 +349,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4">
                     <div class="w-1/3 flex flex-col items-center justify-start pt-4">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[-3deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[-3deg]">
                             <img alt="Snack Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal scale-110"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA93J3Rcx--G1E4gRJpjq7p4_-WF4zECBjvgK1RKcFhH0AObHKvREw4TOpWZlKHWzupfUF2q0k__hREwRzeYmVqyxO0LOUviBJerRLAFZyFrm5tfZ-dPFqwi5DX9K-FptouYCqVuiHo955JQcExyE-u2dl-yr-i4Fpz3Cquj1_BwTcqtwwaOBK69qD7sYQqYMTkUAZOBel4l7dSmQTHQBWV3JO-T7hNBPFBuD6i2f1n_cTfCg7U-z8imkIHiT3MEx02kZ_FMbiPYPaI" />
+                                src="assets/images/Snacks.png" />
                         </div>
                         <div class="w-[20vw] h-[20vw] max-w-[5rem] max-h-[5rem] mt-4 rotate-[2deg]">
                             <img alt="Cake Illustration"
@@ -382,10 +412,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4 flex-row-reverse">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[4deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[4deg]">
                             <img alt="Sandwich Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA93J3Rcx--G1E4gRJpjq7p4_-WF4zECBjvgK1RKcFhH0AObHKvREw4TOpWZlKHWzupfUF2q0k__hREwRzeYmVqyxO0LOUviBJerRLAFZyFrm5tfZ-dPFqwi5DX9K-FptouYCqVuiHo955JQcExyE-u2dl-yr-i4Fpz3Cquj1_BwTcqtwwaOBK69qD7sYQqYMTkUAZOBel4l7dSmQTHQBWV3JO-T7hNBPFBuD6i2f1n_cTfCg7U-z8imkIHiT3MEx02kZ_FMbiPYPaI" />
+                                src="assets/images/Sandwich.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
@@ -414,10 +444,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[-2deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[-2deg]">
                             <img alt="Burger Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA93J3Rcx--G1E4gRJpjq7p4_-WF4zECBjvgK1RKcFhH0AObHKvREw4TOpWZlKHWzupfUF2q0k__hREwRzeYmVqyxO0LOUviBJerRLAFZyFrm5tfZ-dPFqwi5DX9K-FptouYCqVuiHo955JQcExyE-u2dl-yr-i4Fpz3Cquj1_BwTcqtwwaOBK69qD7sYQqYMTkUAZOBel4l7dSmQTHQBWV3JO-T7hNBPFBuD6i2f1n_cTfCg7U-z8imkIHiT3MEx02kZ_FMbiPYPaI" />
+                                src="assets/images/Burger.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
@@ -446,10 +476,10 @@
                 </div>
                 <div class="flex gap-[4vw] md:gap-4 mb-4 flex-row-reverse">
                     <div class="w-1/3 flex flex-col items-center justify-center">
-                        <div class="w-[25vw] h-[25vw] max-w-[6rem] max-h-[6rem] mb-2 rotate-[5deg]">
+                        <div class="w-[35vw] h-[35vw] max-w-[8rem] max-h-[8rem] mb-2 rotate-[5deg]">
                             <img alt="Maggie Illustration"
                                 class="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0KqVn1qts0j8yn_g0Pak8KE2ZpZOmH5ebhD9jrSSXj_-YLYh6MGgEx2RgPBNQpE4JOaxwJ6i0HtYxXuUFV-k2ufyNV0TCHCyPzLO5wlks14pFY1yPAHzLqXVTHsCJeLbeArVRMEqTG-HQlbJkNocRUADhJYvsg-y0zxayhvQQjXNqJKrhaHLoyUq1ebAdMlpywAATubnU07dgveKuZRHIYfrC9513TNtwK4s3KegKmTdpCxLdkSZdLsjCzwf4kMn68_p8NbKH_Qym" />
+                                src="assets/images/Maggie.png" />
                         </div>
                     </div>
                     <div class="w-2/3 space-y-[3vw] md:space-y-3">
